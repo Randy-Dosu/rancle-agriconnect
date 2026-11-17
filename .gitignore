@@ -416,3 +416,18 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# ---------------------------------------------------------------------------
+# AgriConnect
+# ---------------------------------------------------------------------------
+node_modules/
+server/data/
+*.db
+*.db-wal
+*.db-shm
+web/dist/
+.env
+.env.*
+!.env.example
+.DS_Store
+.vercel
